@@ -1,0 +1,8 @@
+When an admin person logs in and wishes to update a product's category,
+they first click on the update icon for the product whose category they 
+wish to update. This calls the updateProduct method in the AdminController.
+This then creates a form based on the product clicked and fills it with
+this products details. When the category edit is made, the admin clicks
+save. This calls the addProduct method and also makes sure the user is an
+admin to make this change. As the product has already been created, it 
+will call the update method
